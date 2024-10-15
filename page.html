@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.jpg">Ved Music</li>
+            <li>Home</li>
+            <li> <a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="Storage">
+        <div class="songlist">
+            <h1>Recommended songs</h1>
+            <div class="songItemholder">
+                <div class="songItem">
+                    <img src="covers/15.jpg" alt="5">
+                    <span class="songName">Bawara Mann-JOLLY LLB</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/13.jpg" alt="5">
+                    <span class="songName">Haawa Haawa - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/13.jpg" alt="5">
+                    <span class="songName">Jo Bhi Main - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/13.jpg" alt="5">
+                    <span class="songName"></span>Nadaan Parindey - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="5" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/13.jpg" alt="5">
+                    <span class="songName">Phir Se Ud Chala - Rockstar</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="6" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/12.jpg" alt="5">
+                    <span class="songName">Ishq Bulaava - Hasee Toh Phasee</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="7" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\12.jpg" alt="5">
+                    <span class="songName">Moh Moh Ke Dhaage- Dum Laga Ke Haisha</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="8" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/14.jpg" alt="5">
+                    <span class="songName">Monta Re - Lootera</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="9" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/16.jpg" alt="5">
+                    <span class="songName">Tum Tak - Raanjhanaa</span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="10" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers\6.jpg" alt="5">
+                    <span class="songName"></span></span>
+                    <span class="songlistplay"><span class="timestamp">05:30<i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="Songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Bawara Mann-JOLLY LLB</span>
+        </div>   
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
